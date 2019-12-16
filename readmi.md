@@ -1,0 +1,1 @@
+Text classifaer, based on libSVM with rest
