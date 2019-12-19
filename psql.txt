@@ -1,0 +1,6 @@
+create database python_classificator;
+create user python with encrypted password '1234567';
+grant all privileges on database python_classificator to python;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO python;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO python;
+\i main.sql

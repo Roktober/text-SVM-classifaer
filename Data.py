@@ -26,6 +26,7 @@ class Data:
                 self.index_name.update({index: cl})
 
     def add_data(self, class_name_data, document_data):
+        self.add_classes(class_name_data)
         if isinstance(class_name_data, list) and isinstance(
                 document_data, list):
             for name, val in zip(class_name_data, document_data):

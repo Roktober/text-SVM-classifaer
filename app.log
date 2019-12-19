@@ -1,0 +1,4 @@
+2019-12-18 16:54:16,719 - root - INFO - build_model:40 — 0.20860648155212402 s Build model time with data shape: 4850
+2019-12-18 16:54:16,817 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.30687785148620605
+2019-12-18 16:54:16,829 - root - INFO - build_model:40 — 0.0029528141021728516 s Build model time with data shape: 4
+2019-12-18 16:54:16,841 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

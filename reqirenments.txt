@@ -1,7 +1,0 @@
-dataclasses_json
-scipy
-nltk
-flask
-sklearn
-numpy
-pandas

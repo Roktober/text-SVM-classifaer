@@ -49,7 +49,7 @@ def train_NB(clss, classi_data, notclassi_data):
     index = [r.data.name_index[t] for t in y_test]
     name = r.data._save_to_json()
     acc = np.mean(res == index)
-    print('acc: ', acc, f'\nData saved to {name}.json')
+    print('ACC: ', acc, f'\nData saved to {name}.json')
 
     return f'{name}.json', d, acc
 

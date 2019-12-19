@@ -1,0 +1,52 @@
+2019-12-18 17:17:45,966 - root - INFO - build_model:40 — 0.15941166877746582 s Build model time with data shape: 4850
+2019-12-18 17:17:46,050 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.2435166835784912
+2019-12-18 17:18:55,457 - root - INFO - build_model:40 — 0.1664435863494873 s Build model time with data shape: 4850
+2019-12-18 17:18:55,542 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.25107264518737793
+2019-12-18 17:18:55,551 - root - INFO - build_model:40 — 0.0013077259063720703 s Build model time with data shape: 4
+2019-12-18 17:18:55,554 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-19 11:36:35,385 - root - INFO - build_model:40 — 0.16710567474365234 s Build model time with data shape: 4850
+2019-12-19 11:36:35,470 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.25224733352661133
+2019-12-19 11:36:35,495 - root - INFO - build_model:40 — 0.0019724369049072266 s Build model time with data shape: 4
+2019-12-19 11:36:35,500 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-19 11:47:05,493 - root - INFO - build_model:40 — 0.16022300720214844 s Build model time with data shape: 4850
+2019-12-19 11:47:05,577 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.24420428276062012
+2019-12-19 11:47:05,587 - root - INFO - build_model:40 — 0.0013628005981445312 s Build model time with data shape: 4
+2019-12-19 11:47:05,590 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-19 11:48:06,727 - root - INFO - predict:52 — Predict 5 values with 4 datasets, predict time 0.0005064010620117188
+2019-12-19 11:48:06,728 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:48:06] "POST /ri_classificator/predict HTTP/1.1" 200 -
+2019-12-19 11:49:02,952 - root - INFO - predict:42 — error in predict: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2019-12-19 11:49:02,953 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:49:02] "POST /ri_classificator/predict HTTP/1.1" 500 -
+2019-12-19 11:51:15,970 - root - INFO - predict:42 — error in predict: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2019-12-19 11:51:15,971 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:51:15] "POST /ri_classificator/predict HTTP/1.1" 500 -
+2019-12-19 11:51:26,036 - root - INFO - predict:42 — error in predict: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2019-12-19 11:51:26,036 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:51:26] "POST /ri_classificator/predict HTTP/1.1" 500 -
+2019-12-19 11:51:31,109 - root - INFO - predict:52 — Predict 5 values with 4 datasets, predict time 0.0006368160247802734
+2019-12-19 11:51:31,109 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:51:31] "POST /ri_classificator/predict HTTP/1.1" 200 -
+2019-12-19 11:52:47,423 - root - INFO - build_model:40 — 0.15836572647094727 s Build model time with data shape: 4850
+2019-12-19 11:52:47,511 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.24672770500183105
+2019-12-19 11:52:47,521 - root - INFO - build_model:40 — 0.0013513565063476562 s Build model time with data shape: 4
+2019-12-19 11:52:47,525 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-19 11:52:49,958 - root - INFO - predict:52 — Predict 5 values with 4 datasets, predict time 0.0005447864532470703
+2019-12-19 11:52:49,959 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:52:49] "POST /ri_classificator/predict HTTP/1.1" 200 -
+2019-12-19 11:53:12,838 - root - INFO - build_model:40 — 0.0013854503631591797 s Build model time with data shape: 9
+2019-12-19 11:53:12,838 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:53:12] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:53:43,489 - root - INFO - build_model:40 — 0.0014925003051757812 s Build model time with data shape: 14
+2019-12-19 11:53:43,490 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:53:43] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:53:44,765 - root - INFO - build_model:40 — 0.001424551010131836 s Build model time with data shape: 19
+2019-12-19 11:53:44,765 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:53:44] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:55:06,581 - root - INFO - build_model:40 — 0.0015060901641845703 s Build model time with data shape: 24
+2019-12-19 11:55:06,582 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:55:06] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:56:39,337 - root - INFO - build_model:40 — 0.0016524791717529297 s Build model time with data shape: 29
+2019-12-19 11:56:39,338 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:56:39] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:56:40,001 - root - INFO - build_model:40 — 0.001680612564086914 s Build model time with data shape: 34
+2019-12-19 11:56:40,002 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:56:40] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:56:40,557 - root - INFO - build_model:40 — 0.0015687942504882812 s Build model time with data shape: 39
+2019-12-19 11:56:40,557 - werkzeug - INFO - _log:122 — 127.0.0.1 - - [19/Dec/2019 11:56:40] "POST /ri_classificator/add_data HTTP/1.1" 200 -
+2019-12-19 11:59:11,021 - root - INFO - build_model:40 — 0.16152667999267578 s Build model time with data shape: 4850
+2019-12-19 11:59:11,106 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.24701380729675293
+2019-12-19 11:59:11,116 - root - INFO - build_model:40 — 0.0013706684112548828 s Build model time with data shape: 39
+2019-12-19 11:59:11,119 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-19 11:59:45,667 - root - INFO - build_model:40 — 0.1632237434387207 s Build model time with data shape: 4850
+2019-12-19 11:59:45,761 - root - INFO - predict:52 — Predict 1213 values with 4850 datasets, predict time 0.25760602951049805
+2019-12-19 11:59:45,773 - root - INFO - build_model:40 — 0.002219676971435547 s Build model time with data shape: 39
+2019-12-19 11:59:45,778 - werkzeug - INFO - _log:122 —  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

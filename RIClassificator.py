@@ -16,8 +16,6 @@ import time
 class RIClassificator(object):
 
     def __init__(self, data: Data):
-        # nltk.download('punkt')
-        # nltk.download('averaged_perceptron_tagger_ru')
         self.stemmer = Porter
         self.count_vect = CountVectorizer()
         self.data = data
@@ -48,7 +46,7 @@ class RIClassificator(object):
             gamma='auto',
             random_state=42).fit(
             X_train,
-            Y_train)  # 0.8953009068425392
+            Y_train)
         print(
             time.time() - t,
             'Build model time with data shape: ',
